@@ -1,0 +1,8 @@
+# NOTE: gotta restart the server after making changes here
+
+collections:
+  # Collections map to documents in folders in root dir, prefixed by _ (e.g. _authors)
+  authors:
+    # By default, collections do not output a page for their documents.
+    # If you wanna do that, set output: true
+    output: true
