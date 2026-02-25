@@ -1,5 +1,10 @@
 # NOTE: gotta restart the server after making changes here
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 collections:
   # Collections map to documents in folders in root dir, prefixed by _ (e.g. _authors)
   authors:

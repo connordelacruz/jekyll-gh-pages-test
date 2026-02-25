@@ -4,6 +4,10 @@
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    {% comment %}jekyll-feed:{% endcomment %}
+    {% feed_meta %}
+    {% comment %}jekyll-seo-tags:{% endcomment %}
+    {% seo %}
   </head>
   <body>
     {% include navigation.html %}
