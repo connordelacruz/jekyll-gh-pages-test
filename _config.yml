@@ -6,3 +6,20 @@ collections:
     # By default, collections do not output a page for their documents.
     # If you wanna do that, set output: true
     output: true
+
+# Define front matter defaults for each type so we don't have to define them each time.
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
