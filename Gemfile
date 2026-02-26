@@ -2,9 +2,10 @@
 
 source "https://rubygems.org"
 
+ruby file: ".ruby-version"
+
 gem "jekyll"
 
-# TODO: figure out github-pages. Might have been an issue with Gemfile.lock
 group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-feed"
